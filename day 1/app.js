@@ -1,0 +1,5 @@
+const element1=React.createElement('h1',{className:'element',id:"first"},"HEllo")
+const element2=React.createElement('h2',{className:'element',id:'Second',style:{backgroundColor:"red"}},'Sumit')
+const div=React.createElement('div',null,element1,element2,"hello Coders")
+const root =ReactDOM.createRoot(document.getElementById('root'))
+root.render(div)
